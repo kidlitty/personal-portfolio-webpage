@@ -1,0 +1,181 @@
+* {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#welcome-text {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar {
+    background-color: #150050;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    margin-top: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin: 20px 12px;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+#welcome-section {
+    background-color: #3D0000;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#welcome-section p {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: FFEA20;
+}
+
+#projects {
+    width: 100%;
+    height: 970px;
+    background-color: #263859;
+    padding-top: 2px;
+}
+
+#project-intro {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.project-tile {
+    width: 40%;
+    height: 400px;
+    background-color: #150050;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+img {
+    display: block;
+    margin: 5px auto 0;
+    width: 95%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+#contact-section {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #3D0000;
+    padding: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-me {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+#contact-section p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+#contact-section a {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+i {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.8rem;
+}
+
+a:hover {
+    color: #555;
+}
+
+#contact-section a:hover {
+    color: #555;
+}
+
+hr {
+    border: 2px solid #150050;
+    margin: 0;
+}
+
+#footer-section {
+    padding-top: 5px;
+    width: 100%;
+    min-height: 9vh;
+    background-color: #3D0000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    #projects {
+        height: 1880px;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-tile {
+        width: 70%;
+    }
+
+    #contact-me {
+        font-size: 2.8rem;
+    }
+
+    #contact-section p {
+        font-size: 1rem;
+    }
+
+    #contact-section a {
+        color: #fff;
+        font-size: 1.4rem;
+    }
+}
