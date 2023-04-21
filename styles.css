@@ -54,7 +54,7 @@ h1 {
 #welcome-section p {
     margin-top: 0;
     font-size: 1.2rem;
-    color: FFEA20;
+    color: #FFEA20;
 }
 
 #projects {
@@ -78,7 +78,7 @@ h1 {
 
 .project-tile {
     width: 40%;
-    height: 400px;
+    height: 500px;
     background-color: #150050;
     margin: 20px;
     border-radius: 10px;
